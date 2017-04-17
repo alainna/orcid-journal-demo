@@ -167,7 +167,7 @@ if (isset($_GET['code'])) {
 </table>
 
       <br> <br>
-      <a class="btn btn-large"  href="<?php echo ENV; ?>/my-orcid" target="_blank">Finish creating your author/review profile</a>
+      <a class="btn btn-large"  href="https://sandbox.orcid.org/my-orcid" target="_blank">Finish creating your author/review profile</a>
   </div>
 
 <hr>
