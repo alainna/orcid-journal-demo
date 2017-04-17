@@ -41,7 +41,7 @@
         <a class="btn btn-large" href="https://sandbox.orcid.org/oauth/authorize?client_id=APP-NR67QVZ6VF21QTZ3&response_type=code&scope=/activities/update&redirect_uri=https://orcid-journalconnect.herokuapp.com/oauth-redirect.php"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_24x24.png" width='24' height='24' alt="ORCID icon"/> Create a new ORCID iD</a>
         <br> <br>
         <!--replace client_id and redirect_uri with your own values-->
-        <p class="lead">Already have an ORCID iD? <a href="https://sandbox.orcid.org/oauth/authorize?client_id=APP-APP-NR67QVZ6VF21QTZ3&response_type=code&scope=/activities/update&redirect_uri=https://orcid-journalconnect.herokuapp.com/oauth-redirect.php&show_login=true">Connect your existing ORCID iD</a>
+        <p class="lead">Already have an ORCID iD? <a href="https://sandbox.orcid.org/oauth/authorize?client_id=APP-NR67QVZ6VF21QTZ3&response_type=code&scope=/activities/update&redirect_uri=https://orcid-journalconnect.herokuapp.com/oauth-redirect.php&show_login=true">Connect your existing ORCID iD</a>
       </div>
 
       <hr>
