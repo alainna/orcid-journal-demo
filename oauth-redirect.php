@@ -27,7 +27,7 @@
 
 define('OAUTH_CLIENT_ID', 'APP-NR67QVZ6VF21QTZ3');//client ID
 define('OAUTH_CLIENT_SECRET', '91729101-8137-416e-b236-b001dbbc8b63');//client secret
-define('OAUTH_REDIRECT_URI', 'https://orcid-journalconnect.herokuapp.com');//redirect URI
+define('OAUTH_REDIRECT_URI', 'https://orcid-journalconnect.herokuapp.com/oauth-redirect.php');//redirect URI
 
 //ORCID API ENDPOINTS
 ////////////////////////////////////////////////////////////////////////
