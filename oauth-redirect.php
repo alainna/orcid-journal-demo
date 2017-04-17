@@ -102,11 +102,72 @@ if (isset($_GET['code'])) {
       <div class="jumbotron">
       <h1>Thanks, <?php echo $response['name']; ?>!</h1>
       <br>
-      <p class="lead">Your <a href="https://sandbox.orcid.org/<?php echo $response['orcid']; ?>" target="_blank"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" class="logo" width='16' height='16' alt="iD"/> https://sandbox.orcid.org/<?php echo $response['orcid']; ?></a> has been successfully connected to your profile with <i>Learned Society Journal</i>. Your ORCID iD will be embedded in the article metadata we deposit to Crossref.  </p>
-      <p class="lead">The access token we're storing in our database to indicate that we have authenticated your ORCID iD and gained your permission to update your ORCID record is: <b><?php echo $response['access_token']; ?></b>. We'll use your access token when we update your ORCID record in the future with your <b>publication</b>, <b>peer review activity</b>, or <b>affiliation with our society</b>.</p>
-      <p>(for demo purposes only - don't show access tokens in live apps!)</p>
+	  <br />
+<table ><colgroup><col ><col ></colgroup>
+<tbody width="100%" style="text-align: left;">
+<tr>
+<td width="20%"><p>Your ORCID iD: </p></td>
+<td width="80%"><p><a href="https://sandbox.orcid.org/<?php echo $response['orcid']; ?>" target="_blank"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" class="logo" width='16' height='16' alt="iD"/> https://sandbox.orcid.org/<?php echo $response['orcid']; ?></a></p></td>
+</tr>
+
+<tr>
+<td></td>
+<td><p><i>Your iD has been successfully connected. It will be embedded in the article metadata we deposit to Crossref.</i></p></td>
+</tr>
+
+<tr>
+<td><p>Your access token:</p></td>
+<td><p><b><?php echo $response['access_token']; ?></b></p></td>
+</tr>
+
+<tr>
+<td></td>
+<td><p>We store the access token to your ORCID record to indicate that we have authenticated your ORCID iD and gained your permission to update your ORCID record. We'll use your access token when we update your ORCID record in the future with your <b>publication</b>, <b>peer review activity</b>, or <b>affiliation with our society</b>.</p>
+<p>(for demo purposes only - don't show access tokens in live apps!)</p>
+</p></td>
+</tr>
+
+<tr>
+<td><p>First name(s): </p></td>
+<td><p><input type="text" name="firstname" size="25">
+
+</p></td>
+</tr>
+
+<tr>
+<td><p>Last name(s):</p></td>
+<td><p><input type="text" name="lastname" size="25">
+</p></td>
+</tr>
+
+<tr>
+<td><p>Email address:</p></td>
+<td><p><input type="text" name="mail" size="25">
+</p></td>
+</tr>
+
+<tr>
+<td><p>Institution name:</p></td>
+<td><p><input type="text" name="institution" size="25">
+
+</p></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+</tr>
+
+</tbody>
+</table>
+
       <br> <br>
-      <a class="btn btn-large"  href="<?php echo ENV; ?>/my-orcid" target="_blank">Go to your ORCID record</a>
+      <a class="btn btn-large"  href="<?php echo ENV; ?>/my-orcid" target="_blank">Finish creating your author/review profile</a>
   </div>
 
 <hr>
