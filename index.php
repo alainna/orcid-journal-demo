@@ -36,9 +36,9 @@
       <div class="jumbotron">
         <h2>Learned Society Journal<br /> online submission system</h2>
         <br>
-        <p class="lead" align="left"><i>Learned Society Journal</i> requires that all submitting authors connect their ORCID iDs to their submission. Please connect your ORCID iD to start the submission process.</p>
+        <p class="lead" align="left"><i>Learned Society Journal</i> requires that all submitting authors connect their ORCID iDs to their manuscript submission. Please connect your ORCID iD to start the submission process.</p>
         <!--replace client_id and redirect_uri with your own values-->
-        <a class="btn btn-large" href="https://sandbox.orcid.org/oauth/authorize?client_id=APP-NR67QVZ6VF21QTZ3&response_type=code&scope=/activities/update&redirect_uri=https://orcid-journalconnect.herokuapp.com/oauth-redirect.php"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_24x24.png" width='24' height='24' alt="ORCID icon"/> Sign in or register using your ORCID iD</a>
+        <a class="btn btn-large" href="https://sandbox.orcid.org/oauth/authorize?client_id=APP-NR67QVZ6VF21QTZ3&response_type=code&scope=/activities/update&redirect_uri=https://orcid-journalconnect.herokuapp.com/oauth-redirect.php"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_24x24.png" width='24' height='24' alt="ORCID icon"/> Create or connect your ORCID iD</a>
         <!-- <br> <br> -->
         <!--replace client_id and redirect_uri with your own values-->
         <!-- let's not do step 2 
