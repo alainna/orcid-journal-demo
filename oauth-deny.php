@@ -25,7 +25,7 @@
 
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="https://orcid-create-on-demand.herokuapp.com/">Home</a></li>
+          <li class="active"><a href="https://orcid-journalconnect.herokuapp.com">Home</a></li>
           <li><a href="https://orcid.org" target="_blank">About ORCID</a></li>
           <li><a href="https://orcid.org/help/contact-us" target="_blank">Contact ORCID</a></li>
         </ul>
