@@ -102,7 +102,7 @@ if (isset($_GET['code'])) {
       <div class="jumbotron">
       <h1>Thanks, <?php echo $response['name']; ?>!</h1>
       <br>
-      <p class="lead">Your <a href="https://sandbox.orcid.org/<?php echo $response['orcid']; ?>" target="_blank"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" class="logo" width='16' height='16' alt="iD"/> https://sandbox.orcid.org/<?php echo $response['orcid']; ?></a> has been successfully connected to your profile with <i>Learned Society Journal</i>. Your ORCID iD will be embedded in the article metadata we deposit to Crossref. We'll also  </p>
+      <p class="lead">Your <a href="https://sandbox.orcid.org/<?php echo $response['orcid']; ?>" target="_blank"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" class="logo" width='16' height='16' alt="iD"/> https://sandbox.orcid.org/<?php echo $response['orcid']; ?></a> has been successfully connected to your profile with <i>Learned Society Journal</i>. Your ORCID iD will be embedded in the article metadata we deposit to Crossref.  </p>
       <p class="lead">The access token we're storing in our database to indicate that we have authenticated your ORCID iD and gained your permission to update your ORCID record is: <b><?php echo $response['access_token']; ?></b>. We'll use your access token when we update your ORCID record in the future with your <b>publication</b>, <b>peer review activity</b>, or <b>affiliation with our society</b>.</p>
       <p>(for demo purposes only - don't show access tokens in live apps!)</p>
       <br> <br>
