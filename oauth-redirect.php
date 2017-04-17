@@ -33,8 +33,8 @@ define('OAUTH_REDIRECT_URI', 'https://orcid-journalconnect.herokuapp.com');//red
 ////////////////////////////////////////////////////////////////////////
 
 //Sandbox - Member API
-//define('OAUTH_AUTHORIZATION_URL', 'https://sandbox.orcid.org/oauth/authorize');//authorization endpoint
-//define('OAUTH_TOKEN_URL', 'https://sandbox.orcid.org/oauth/token'); //token endpoint
+define('OAUTH_AUTHORIZATION_URL', 'https://sandbox.orcid.org/oauth/authorize');//authorization endpoint
+define('OAUTH_TOKEN_URL', 'https://sandbox.orcid.org/oauth/token'); //token endpoint
 
 //Sandbox - Public API
 //define('OAUTH_AUTHORIZATION_URL', 'https://sandbox.orcid.org/oauth/authorize');//authorization endpoint
@@ -45,8 +45,8 @@ define('OAUTH_REDIRECT_URI', 'https://orcid-journalconnect.herokuapp.com');//red
 //define('OAUTH_TOKEN_URL', 'https://orcid.org/oauth/token'); //token endpoint
 
 //Production - Public API
-define('OAUTH_AUTHORIZATION_URL', 'https://orcid.org/oauth/authorize');//authorization endpoint
-define('OAUTH_TOKEN_URL', 'https://orcid.org/oauth/token');//token endpoint
+//define('OAUTH_AUTHORIZATION_URL', 'https://orcid.org/oauth/authorize');//authorization endpoint
+//define('OAUTH_TOKEN_URL', 'https://orcid.org/oauth/token');//token endpoint
 
 //EXCHANGE AUTHORIZATION CODE FOR ACCESS TOKEN
 ////////////////////////////////////////////////////////////////////////
